@@ -1,15 +1,18 @@
 # Bioimage-Classification-with-Handcrafted-and-Learned-Features-
 
+Code stored in 
+ToolBiologicalSuite.rar
+
+Main functions:
 CLMfeature.m
 %It explains how to use CLM feature extractor and to train SVM in the two ways described in the paper
 
 MainTestsSurveyBiologicalSuite.m
 %It explains how to extract the different local features tested in the paper 
 
-%the code for the deep learning approaches is available from the related papers. The links to download
-%the codes of those papers is available at  
-https://www.dropbox.com/s/bguw035yrqz0pwp/ElencoCode.docx?dl=0
-
+%the code for the deep learning approaches is available from the related papers:
+a) ToolDeepFeatures.rar, Loris Nanni, Stefano Ghidoni, (2016) How could a subcellular image, or a painting by Van Gogh, be similar to a great white shark or to a pizza?, Pattern Recognition Letters
+b) ToolDeepTransfer.rar. Loris Nanni, Stefano Ghidoni, Sheryl Brahnam (2017) Handcrafted vs Non-Handcrafted Features for computer vision classification, Pattern Recognition
 
 %Notice that before the fusione the scores are normalized to 'mean=0' and 'standard deviation = 1':
 
